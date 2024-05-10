@@ -1,0 +1,171 @@
+/* Fonts */
+.montserrat-section-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #3da3df;
+    font-size: 64px;
+}
+
+.montserrat-sub-section-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #3da3df;
+    font-size: 60px;
+}
+
+.manrope-name{
+    font-family: "Manrope", serif;
+    color: #3da3df;
+    font-size: 16px;
+}
+
+.karla-label {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C4C5BA;
+    font-size: 48px;
+
+    color: #3da3df;
+}
+
+.karla-regular {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C4C5BA;
+    font-size: 24px;
+}
+
+.link{
+    color: #3da3df;
+    text-decoration: none;
+}
+
+/* Body */
+
+#name{
+    margin-left: 2%;
+}
+
+.main_body{
+    padding-top: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1B1B;
+}
+
+#picture_and_intro_div{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+    max-height: 1000px;
+}
+
+#react_img{
+    max-width: 65%;
+    max-height: 65%;
+    border-width: 20pt;
+    border: 5px solid #3da3df;
+    border-radius: 5%;
+
+    align-self: center;
+
+    margin-bottom: 7%;
+}
+
+#introduction_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_intro{
+    align-self: flex-start;
+    padding-left: 10%;
+}
+
+#main_intro_sub_text{
+    padding-left: 10%;
+    line-height: 2;
+}
+
+.top_bar{
+    display: flex;
+}
+
+#name{
+    margin-left: 2%;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competetive_anlyses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 10%;
+}
+
+.competetive_analysis_card{
+    display: flex;
+    justify-content: baseline;
+    max-width: 100%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.swot_image{
+    max-width: 70%;
+    max-height: 70%;
+    border: 5px solid #3da3df;
+    border-radius: 5%;
+}
+
+.comp_anal_title_and_text{
+    display: flex;
+    flex-direction: column;
+}
+
+#comp_anal_title{
+    padding-left: 5%;
+}
+
+.comp_anal_text
+{
+    margin-left: 5.5%;
+    line-height: 2;
+}
+
+#summary_label{
+    text-decoration: none;
+    align-self: center;
+
+    font-size: 56px;
+}
+
+#Bookshop_SWOT_Table{
+    max-width: 69%;
+}
+
+.comparisson_chart{
+    display: flex;
+    align-items: center;
+}
+
+#Bookshop_Table{
+    align-self: center;
+}

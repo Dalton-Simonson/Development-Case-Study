@@ -1,0 +1,107 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Manrope -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- Karla Text -->
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<!-- Montserrat -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+
+
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>React Bookstore</title>
+      <!-- import CSS styles -->
+      <link rel="stylesheet" href="styles.css" /> 
+    </head>
+  
+    
+    <body class="main_body">
+
+      <div id="name" class="manrope-name"><h1>Dalton Simonson</h1></div>
+
+        <div id="picture_and_intro_div">
+         
+          <img src="images/development.png" alt="me and my cat" id="react_img">
+  
+
+          <div id="introduction_text">
+              <h2 class="montserrat-section-text" id="main_intro">React Bookstore</h2>
+              <h3 class="karla-regular" id="main_intro_sub_text">As an exercise in developing a React app with special consideration to industry practices and convetions,
+                 I created this <a class="link" href="https://development-cs-1300.vercel.app/">React Bookstore</a>. To facilitate its development, I conducted a competetive analysis on
+                  sites in the e-commerce bookstore market and organized feature analysis.  
+              </h3>
+          </div>
+      </div>
+
+
+        <div class ="main_content">
+  
+
+            <h2 id="competetive_analysis_label" class="montserrat-sub-section-text">Competetive Analyses</h2>
+
+
+            <div class="competetive_anlyses">
+
+              <div class="competetive_analysis_card"> 
+                <img src="Images/Barnes and Noble SWOT Table.png" alt="Barnes and Noble SWOT Table" id="Barnes and Noble SWOT Table" class="swot_image">
+                <div class="comp_anal_title_and_text">
+                    <a id="comp_anal_title" class="karla-label" href="https://www.barnesandnoble.com/">Barnes & Noble</a>
+                    <h3 class="karla-regular comp_anal_text" id="barnes_noble_text">Barnes & Noble is one of the most popular sites in the space and have a well built site.
+                      But it does have its fair share of issues. They have great contrast in their color palette, a plethora of filtering options, and leverage their brand well. 
+                      But they have very basic sorting oprions, a couple of distracting elements, and the presentation of their book covers is slightlt jarring against the harsh white background. 
+                    </h3>
+                </div>
+              </div>
+
+              <div class="competetive_analysis_card"> 
+                <img src="Images/Bookshop.org.png" alt="Bookshop.org SWOT Table" id="Bookshop_SWOT_Table" class="swot_image">
+                <div class="comp_anal_title_and_text">
+                    <a id="comp_anal_title" class="karla-label" href="https://bookshop.org/">Bookshop.org</a>
+                    <h3 class="karla-regular comp_anal_text" id="bookshop_text">Bookshop.org has nice background 'cards' for their books which make the cover-art stand out but is not jarring.
+                      The overall contrast is really strong and there is a good sense of hierarchy in their design. Their top bar did present some problems. Rather than having a genre drop-down they list one or two genres.
+                      This makes it very difficult to find a way to look for a particulart genre if it is not one of the few pre-selected ones in their top bar.
+                       Additionally, when that genre sorting functionality is found, only one genre can be filtered at a time.
+                    </h3>
+                </div>
+              </div>
+
+              <div class="competetive_analysis_card"> 
+                <img src="Images/Symposium Books SWOT Table.png" alt="Bookshop.org SWOT Table" id="Bookshop.org SWOT Table" class="swot_image">
+                <div class="comp_anal_title_and_text">
+                    <a id="comp_anal_title" class="karla-label" href="https://symposiumbooks.com/">Symposium Books</a>
+                    <h3 class="karla-regular comp_anal_text" id="symposium_text">Symposium Books is a smaller retailer but have a really strong site that spoke to me. They embody strong design philosophy and principles in their design through great color choice, hierarchy, and functionality.
+                      Of all the sites this one has the best filtering options, but still only allowed for a single filter to be applied to a selction of books.
+                       Additionally, they had very useful and thoughtful sorting options.
+                    </h3>
+                </div>              
+              </div>
+          </div>
+
+
+          <h2 id="summary_label" class="karla-label">Summary</h2>
+
+          <img src="Images/comparisson chart.png" alt="Bookshop Table" id="Bookshop_Table" class="swot_image">
+
+          <div class="comparisson_chart"> 
+            
+
+            <div class="comp_anal_title_and_text">
+                <h3 class="karla-regular comp_anal_text" id="summary_text">I finally compiled all the features that were present and missing into a chart to guide my implementation.
+                   I then took all the information I gained from the competetive analysis process and implemented my own <a class="link" href="https://development-cs-1300.vercel.app/">bookstore</a> in react.
+                </h3>
+          </div>   
+
+        </div>
+            
+            
+        </div>
+    </body>
+  
+  </html>
